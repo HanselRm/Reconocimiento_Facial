@@ -7,9 +7,9 @@ prerrequisitos
 
 Ejecutar el proyecto
 
-    Entrar en el cmd, luego al direcctorio Reconocimiento_Facial-master\envs\tincode\Scripts desde el cmd y escribimos 
-    activate.bat para ejecutar el entorno virtual, luego retrodecemos a la carpeta raiz del proyecto y escribimos pip 
-    install opencv-python y ejecutamos el proyecto con app.py. (todo en el cmd)
+    Entrar en el cmd, luego al direcctorio Reconocimiento_Facial-master\envs\tincode\Scripts desde el cmd
+    y escribimos activate.bat para ejecutar el entorno virtual, luego retrodecemos a la carpeta raiz del 
+    proyecto y escribimos pip install opencv-python y ejecutamos el proyecto con app.py. (todo en el cmd)
 
 Explicación
 
