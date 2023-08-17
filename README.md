@@ -1,6 +1,6 @@
 # Reconocimiento_Facial
 
-prerrequisitos
+Prerrequisitos
 
     Python 3.11.4
     pip 23.1.2
@@ -22,15 +22,16 @@ Explicación
     detección de una característica particular en una imagen. Dentro de cada etapa, los árboles de decisión 
     utilizan características de tipo Haar para evaluar si se encuentra o no la característica deseada en la 
     imagen. Estas características de Haar son patrones rectangulares que se aplican a diferentes regiones de 
-    la imagen para medir ciertas propiedades visuales. AdaBoost se utiliza para ajustar los pesos de las muestras 
-    de entrenamiento y combinar múltiples árboles de decisión en cada etapa, de manera que se enfoquen en las 
-    regiones de la imagen donde se espera que se encuentre la característica buscada.
+    la imagen para medir ciertas propiedades visuales. AdaBoost se utiliza para ajustar los pesos de las 
+    muestras de entrenamiento y combinar múltiples árboles de decisión en cada etapa, de manera que se 
+    enfoquen en las regiones de la imagen donde se espera que se encuentre la característica buscada.
 
 Explicacion del codigo
 
-    El programa Define el nombre del archivo XML que contiene el clasificador de cascada Haar preentrenado para 
-    la detección de caras. Carga el clasificador de cascada Haar utilizando cv2.CascadeClassifier(file), inicializa 
-    la cámara web, inicia un bucle infinito (while True) para capturar y procesar continuamente los cuadros de video 
-    desde la cámara, convierte la imagen a escala de grises ya que el clasificador Haar generalmente funciona mejor 
-    en imágenes en grises luego itera a través de las caras detectadas y dibuja rectángulos verdes alrededor de ellas y 
+    El programa Define el nombre del archivo XML que contiene el clasificador de cascada Haar 
+    preentrenado para la detección de caras. Carga el clasificador de cascada Haar utilizando 
+    cv2.CascadeClassifier(file), inicializa la cámara web, inicia un bucle infinito (while True) 
+    para capturar y procesar continuamente los cuadros de video desde la cámara, convierte la 
+    imagen a escala de grises ya que el clasificador Haar generalmente funciona mejor en imágenes en 
+    grises luego itera a través de las caras detectadas y dibuja rectángulos verdes alrededor de ellas y 
     se va ejecutando hasta que se precione la tecla Esc.
